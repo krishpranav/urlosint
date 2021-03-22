@@ -14,7 +14,7 @@ class CommonMisspellings
 
   def self.misspelling(w)
     setup unless defined? @@dictionary
-    @@dictionary[w]
+    @@dictionary
   end
 
   private
@@ -39,3 +39,4 @@ class CommonMisspellings
   end
 
 end
+
