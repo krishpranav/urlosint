@@ -1,5 +1,7 @@
 # coding: utf-8
+#common misspelings in urls
 
+#main class for this file
 class CommonMisspellings
   $ENABLE_REVERSE_MISPELLING = true
 
